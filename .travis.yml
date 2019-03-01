@@ -8,5 +8,6 @@ script:
   - coverage run hw1_abez567.py
   - export CODACY_PROJECT_TOKEN=7125a320acd5419db1151aa6a5fd954a
   - export CODECOV_TOKEN="300e873c-af5c-45f1-82ff-47883f7bfd5d"
+  - codecov
 
 
