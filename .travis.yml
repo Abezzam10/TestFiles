@@ -7,7 +7,6 @@ install:
 script:
   - coverage run hw1_abez567.py
   - export CODACY_PROJECT_TOKEN=a5b09ee2bfff4847a67fc227b5162734
-  - coverage run -m unittest discover -s ./tests && coverage xml && python-codacy-coverage -r coverage.xml
   - export CODECOV_TOKEN="300e873c-af5c-45f1-82ff-47883f7bfd5d"
   - codecov
 
